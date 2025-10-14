@@ -45,7 +45,7 @@ This repository hosts the Android binary (.so) for That Sky Mod (TSM). It is int
 ## Download
 
 - Get the latest Android build here:
-  - https://github.com/XeTrinityz/ThatSkyMod/releases/latest
+  - https://github.com/XeTrinityz/ThatSkyMod-Android/releases/latest
 - Asset name typically: `libTSM.so`
 - Also included: `Canvas.apk` (recommended for easy setup).
 - Older versions are available in the Releases page if needed.
