@@ -14,9 +14,7 @@
     <a href="https://discord.gg/kjpGzTU9hH">
       <img src="https://img.shields.io/discord/1247220592919314522?color=7289da&logo=discord&logoColor=white&style=for-the-badge" alt="Discord">
     </a>
-    <a href="https://github.com/XeTrinityz/ThatSkyMod-Android/releases/latest">
-      <img src="https://img.shields.io/github/v/release/XeTrinityz/ThatSkyMod-Android?label=latest&style=for-the-badge" alt="Latest Release">
-    </a>
+    <br>
     <a href="https://github.com/XeTrinityz/ThatSkyMod-Android/releases">
       <img src="https://img.shields.io/github/downloads/XeTrinityz/ThatSkyMod-Android/total?style=for-the-badge" alt="Downloads">
     </a>
