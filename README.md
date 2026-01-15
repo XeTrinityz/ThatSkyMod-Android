@@ -21,7 +21,7 @@
   </div>
 
   <!-- HERO IMAGE -->
-  <img src="https://i.ibb.co/1YkHb7Ws/TSM-A-1.png" alt="TSM Menu Screenshot">
+  <img src="https://i.ibb.co/hRjwR5tx/TSM-A.png" alt="TSM Menu Screenshot">
 </div>
 
 ---
