@@ -1,0 +1,43 @@
+name: Discord Notifications
+
+on:
+  push:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send clean Discord embed
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+          ACTOR: ${{ github.actor }}
+          TIMESTAMP: ${{ github.event.head_commit.timestamp }}
+        run: |
+          curl -X POST \
+          -H "Content-Type: application/json" \
+          -d "$(jq -n \
+            --arg actor "$ACTOR" \
+            --arg message "$COMMIT_MSG" \
+            --arg timestamp "$TIMESTAMP" \
+            '{
+              embeds: [{
+                title: "That Sky Mod - Android",
+                color: 10798649,
+                author: {
+                  name: $actor,
+                  icon_url: ("https://github.com/" + $actor + ".png")
+                },
+                description: $message,
+                thumbnail: {
+                  url: "https://i.ibb.co/prJ0CVdY/android-logo-png-transparent.png"
+                },
+                footer: {
+                  text: "GitHub Actions",
+                  icon_url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                },
+                timestamp: $timestamp
+              }]
+            }')" \
+          "$WEBHOOK"
