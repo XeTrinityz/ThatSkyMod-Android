@@ -1,4 +1,4 @@
-# Project Source License (PSL) v1.0
+# That Sky Mod - Android Source License (TSMSL)
 
 **Copyright (c) [2026] [XeTrinityz]**
 
