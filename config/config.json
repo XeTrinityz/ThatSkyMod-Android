@@ -1,0 +1,13 @@
+{
+    "name": "libTSM.so",
+    "author": "XeTrinityz",
+    "displayName": "That Sky Mod",
+    "description": "https://discord.gg/thatskymod",
+    "majorVersion": 0,
+    "minorVersion": 25,
+    "patchVersion": 2,
+    "displaysUI": true,
+    "selfManagedUI": true,
+    "githubReleasesUrl": "https://api.github.com/repos/XeTrinityz/ThatSkyMod-Android/releases/latest",
+    "dependencies": []
+}

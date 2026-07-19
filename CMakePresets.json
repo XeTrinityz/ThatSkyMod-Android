@@ -1,0 +1,50 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 22,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "android-arm64-debug",
+      "displayName": "Android arm64 (Debug)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/android-arm64-debug",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/Program Files (x86)/Android/AndroidNDK/android-ndk-r23c/build/cmake/android.toolchain.cmake",
+        "CMAKE_ANDROID_NDK": "C:/Program Files (x86)/Android/AndroidNDK/android-ndk-r23c",
+        "ANDROID_ABI": "arm64-v8a",
+        "ANDROID_PLATFORM": "android-26",
+        "ANDROID_STL": "c++_shared",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "android-arm64-release",
+      "displayName": "Android arm64 (Release)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/android-arm64-release",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/Program Files (x86)/Android/AndroidNDK/android-ndk-r23c/build/cmake/android.toolchain.cmake",
+        "CMAKE_ANDROID_NDK": "C:/Program Files (x86)/Android/AndroidNDK/android-ndk-r23c",
+        "ANDROID_ABI": "arm64-v8a",
+        "ANDROID_PLATFORM": "android-26",
+        "ANDROID_STL": "c++_shared",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "android-arm64-debug",
+      "configurePreset": "android-arm64-debug",
+      "jobs": 8
+    },
+    {
+      "name": "android-arm64-release",
+      "configurePreset": "android-arm64-release",
+      "jobs": 8
+    }
+  ]
+}

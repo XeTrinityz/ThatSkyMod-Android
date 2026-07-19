@@ -1,0 +1,15 @@
+SpiritFlyToTemple
+DoTreasureIntro
+FromQuest
+templerail
+Remove Beacon Helper
+questtreasure
+meditateHint
+InfuseMask
+EnterSkyFest
+rainforest_shelter
+rainforest_bridge
+HintThrift
+JarDockMural
+FashionVictory
+FashionStartRecording

@@ -1,0 +1,29 @@
+PointFlyTotemple
+Teleport To CutScene
+PointFinish
+PointSpiritFlyTemple
+Open 2nd Door
+Show Left Door
+Look at Cave
+Show Right Door
+OpenDoor_Revamp
+SpiritFlyToTemple
+Mural02_Revamp
+Mural01_Revamp
+Revamp_TempleRevealCalling
+Mural03_Revamp
+Revamp Look at Temple
+RingBellll
+Aurora_LocationHint
+ShowRightDoor
+SkyArtBook
+IntroCinematicsRevamp_old
+TempleTease03
+EnterSkyFest
+RiseTutorial
+roofopen
+ArtBook1
+Context_Revamp
+Open 2nd Door_cams
+Show Bird Flock
+ArtBook3
