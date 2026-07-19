@@ -79,8 +79,13 @@ This repository hosts the Android binary (.so) for That Sky Mod (TSM). It is int
 
 ## Disclaimer
 
-- This project is not affiliated with thatgamecompany (TGC) or Sky: Children of the Light.
-- Use at your own risk. You are responsible for complying with the game’s Terms of Service and applicable laws.
+- That Sky Mod is an unofficial fan-made modification for Sky: Children of the Light.
+
+- This project is not affiliated with, endorsed by, or sponsored by thatgamecompany (TGC) or Sky: Children of the Light.
+
+- Use at your own risk. Users are responsible for complying with the game's Terms of Service and all applicable laws.
+
+- This project does not include or distribute any proprietary game files, assets, or content belonging to thatgamecompany.
 
 ## Credits
 
